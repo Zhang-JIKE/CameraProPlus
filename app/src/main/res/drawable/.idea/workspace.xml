@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac591875-183c-497e-9402-eb8bb39de3a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../androidTest/java/com/jike/camerapro/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assets/graph.lite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assets/labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cpp/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cpp/native-lib.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/CameraMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/LabActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/SettingsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/cameradata/CameraEncodeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/cameradata/CameraRatesData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/cameradata/CameraSettingsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/cameradata/CameraSizeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/dialog/OnSelectItemListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/dialog/SettingPicSizeDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/dialog/SettingVideoEncodeDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/dialog/SettingVideoRatesDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/dialog/SettingVideoSizeDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/interfaces/OnImageClassifiedListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/mode/CameraSceneMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/utils/CameraUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/utils/DataUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/utils/ImageClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/utils/PermissionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/view/AiSceneView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/view/AutoFitTextureView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/view/CheckView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/jike/camerapro/view/FaceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anim/bottom_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anim/bottom_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anim/fade_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anim/fade_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_aspect_ratio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_camera_lens_f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_camera_lens_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_check.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_encode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_face_detect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_flash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_fps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_fps_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_hdr_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_hdr_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_lib.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_mirror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_pen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_pic_size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_scene_detect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_video_size_1080.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_video_size_4k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_video_size_720.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ic_volum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selector_check_mark.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shape_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shape_circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shape_null.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shape_ring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shape_track_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_lab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/dialog_setting_pic_size.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/dialog_setting_video_encode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/dialog_setting_video_rates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/dialog_setting_video_size.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/fragment_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/view_ai_scene.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/view_checkview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../raw/camera_click_short.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../raw/camera_click_short_fast.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../raw/camera_click_short_fast_100ms.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../raw/camera_sequential.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/java/com/jike/camerapro/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Camera2BasicJava/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Camera2BasicJava/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Camera2VideoJava/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Camera2VideoJava/Application/src/main/java/com/example/android/camera2video/Camera2VideoFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Camera2VideoJava/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Camera2VideoJava/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../CameraXBasic/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../CameraXBasic/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../CameraXBasic/app/src/main/java/com/android/example/cameraxbasic/fragments/CameraFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../CameraXBasic/app/src/main/java/com/android/example/cameraxbasic/fragments/CameraFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../CameraXBasic/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../CameraXBasic/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../CameraXBasic/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../CameraXBasic/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../CameraXBasic/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../CameraXBasic/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../CameraXBasic/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../CameraXBasic/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../Common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../Common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../HdrViewfinder/Application/src/main/java/com/example/android/hdrviewfinder/HdrViewfinderActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../HdrViewfinder/Application/src/main/java/com/example/android/hdrviewfinder/HdrViewfinderActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../HdrViewfinder/Application/src/main/res/layout/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../HdrViewfinder/Application/src/main/res/layout/main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../HdrViewfinder/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../HdrViewfinder/gradle.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="ProjectId" id="1ZFZMVtBiVzhr9xtMlyxejcgutP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac591875-183c-497e-9402-eb8bb39de3a8" name="Default Changelist" comment="" />
+      <created>1584436754831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584436754831</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

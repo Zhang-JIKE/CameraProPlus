@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SettingView">
+        <attr name="Stv_title" format="string"/>
+        <attr name="Stv_img_res" format="reference"/>
+    </declare-styleable>
+</resources>

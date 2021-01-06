@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#191919"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="14dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:padding="4dp"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:text="实验性功能"
+            android:layout_marginLeft="22dp"/>
+
+    </LinearLayout>
+
+    <com.daily.flexui.viewgroup.OverScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:overscrollview_damping="2.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B3FFFFFF"
+                android:textSize="13sp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="28dp"
+                android:text="相机预览"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="26dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="14dp">
+
+                <ImageView
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/ic_fps_60"
+                    android:scaleType="centerInside"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="12dp"
+                    android:text="预览界面锁定60FPS"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <com.daily.flexui.view.SwitchButton
+                    android:id="@+id/switch_force_60fps"
+                    android:layout_width="34dp"
+                    android:layout_height="18dp"
+                    app:baseview_startcolor="@color/colorAccent"
+                    app:baseview_endcolor="@color/colorAccent"
+                    app:baseview_basecolor="#19FFFFFF"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#80FFFFFF"
+                android:textSize="9sp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="14dp"
+                android:text="实验性功能，开启可能造成相机运行不稳定的状况，并可能降低成像质量。\n如果无法达到60帧，可能是您的设备不支持，或可尝试降低分辨率。"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B3FFFFFF"
+                android:textSize="13sp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="32dp"
+                android:text="计算摄影"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="26dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="14dp">
+
+                <ImageView
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/ic_accel"
+                    android:scaleType="centerInside"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="12dp"
+                    android:text="多帧堆栈加速"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <com.daily.flexui.view.SwitchButton
+                    android:id="@+id/switch_cv_accel"
+                    android:layout_width="34dp"
+                    android:layout_height="18dp"
+                    app:baseview_startcolor="@color/colorAccent"
+                    app:baseview_endcolor="@color/colorAccent"
+                    app:baseview_basecolor="#19FFFFFF"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#80FFFFFF"
+                android:textSize="9sp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="14dp"
+                android:text="开启多线程，加速图像分析与处理"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#B3FFFFFF"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="32dp"
+                    android:text="神经网络"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="14dp">
+
+                    <ImageView
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:src="@drawable/ic_neural"
+                        android:scaleType="centerInside"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_marginLeft="12dp"
+                        android:text="AI降噪"/>
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <com.daily.flexui.view.SwitchButton
+                        android:id="@+id/switch_denoise"
+                        android:layout_width="34dp"
+                        android:layout_height="18dp"
+                        app:baseview_startcolor="@color/colorAccent"
+                        app:baseview_endcolor="@color/colorAccent"
+                        app:baseview_basecolor="#19FFFFFF"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#80FFFFFF"
+                    android:textSize="9sp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="14dp"
+                    android:text="开启此功能会关闭Camera2硬件降噪，转为使用神经网络引擎降噪，获取未降噪的图像进行计算，可以大幅提升图像被原始降噪算法抹除的细节，使得画面细节更加丰富，照片更加纯净"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#B3FFFFFF"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="32dp"
+                    android:text="夜景增强"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="14dp">
+
+                    <ImageView
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:src="@drawable/ic_night"
+                        android:scaleType="centerInside"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_marginLeft="12dp"
+                        android:text="单帧超级夜景"/>
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <com.daily.flexui.view.SwitchButton
+                        android:id="@+id/switch_night"
+                        android:layout_width="34dp"
+                        android:layout_height="18dp"
+                        app:baseview_startcolor="@color/colorAccent"
+                        app:baseview_endcolor="@color/colorAccent"
+                        app:baseview_basecolor="#19FFFFFF"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#80FFFFFF"
+                    android:textSize="9sp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="14dp"
+                    android:text="开启此功能后，系统会自动识别当前所处环境，如遇低照度环境，神经网络算法会自动输出暗光增强后的照片"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.daily.flexui.viewgroup.OverScrollView>
+
+</LinearLayout>

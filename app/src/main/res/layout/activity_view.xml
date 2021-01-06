@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#191919"
+    tools:context=".ViewActivity">
+
+    <ImageView
+        android:id="@+id/image_low"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/image_high"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"/>
+
+    <com.daily.flexui.viewgroup.NeonLayout
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        app:neonlayout_radius="30dp"
+        app:neonlayout_light_radius="5dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:layout_gravity="bottom"
+        app:neonlayout_issolid="true"
+        app:neonlayout_lightcolor="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"/>
+
+    </com.daily.flexui.viewgroup.NeonLayout>
+
+
+</FrameLayout>
